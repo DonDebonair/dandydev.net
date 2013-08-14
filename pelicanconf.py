@@ -18,17 +18,16 @@ TRANSLATION_FEED_ATOM = None
 STATIC_PATHS = ['images', 'files']
 
 # Blogroll
-LINKS =  (('Pelican', 'http://getpelican.com/'),
-          ('Python.org', 'http://python.org/'),
-          ('Jinja2', 'http://jinja.pocoo.org/'),
-          ('You can modify those links in your config file', '#'),)
+LINKS = None
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/DaanDebie'),
           ('linkedin', 'http://www.linkedin.com/in/danieldebie'),
           ('github', 'http://github.com/DandyDev'),)
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
+
+TAG_CLOUD_MAX_ITEMS = 10
 
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'nl2br']
 THEME = '/Users/daan.debie/pelican-themes/bootstrap2'
@@ -36,13 +35,13 @@ THEME = '/Users/daan.debie/pelican-themes/bootstrap2'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-ARTICLE_URL = 'blog/{slug}'
+ARTICLE_URL = 'blog/{slug}.html'
 ARTICLE_SAVE_AS = 'blog/{slug}.html'
-PAGE_URL = '{slug}'
+PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 AUTHOR_URL = 'author/{slug}/'
 AUTHOR_SAVE_AS = 'author/{slug}.html'
-CATEGORY_URL = 'categories/{slug}'
+CATEGORY_URL = 'categories/{slug}.html'
 CATEGORY_SAVE_AS = 'categories/{slug}.html'
-TAG_URL = 'tags/{slug}'
+TAG_URL = 'tags/{slug}.html'
 TAG_SAVE_AS = 'tags/{slug}.html'

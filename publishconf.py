@@ -22,3 +22,14 @@ DELETE_OUTPUT_DIRECTORY = True
 
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
+
+ARTICLE_URL = 'blog/{slug}'
+ARTICLE_SAVE_AS = 'blog/{slug}.html'
+PAGE_URL = '{slug}'
+PAGE_SAVE_AS = '{slug}.html'
+AUTHOR_URL = 'author/{slug}/'
+AUTHOR_SAVE_AS = 'author/{slug}.html'
+CATEGORY_URL = 'categories/{slug}'
+CATEGORY_SAVE_AS = 'categories/{slug}.html'
+TAG_URL = 'tags/{slug}'
+TAG_SAVE_AS = 'tags/{slug}.html'
