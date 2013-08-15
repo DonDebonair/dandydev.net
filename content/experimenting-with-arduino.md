@@ -3,7 +3,6 @@ Date: 2011-09-10 18:47
 Category: Computer Science Projects
 Tags: school, arduino, video, twitter
 Slug: experimenting-with-arduino
-Author: Daan Debie
 Summary: I just started with my minor, called Mobile Life, as part of my studies Computer Science. This course, taught by Rimmert Zelle, is all about Arduino & Ubiquitous Computing. The idea is, that by the end of the course we've developed a Proof of Concept utilizing the Arduino platform. The problem is, that me and my project teammate have too many ideas! So in this blog post I intend to share 3 ideas, and I hope readers will give their opinions and deliver some feedback on the proposals!
 
 I just started with my minor, called Mobile Life, as part of my studies Computer Science. The first course, taught by [Rimmert Zelle](http://twitter.com/rimmertzelle "Rimmert Zelle"), is all about [Arduino](http://www.arduino.cc/ "Arduino") & Ubiquitous Computing. The idea is, that by the end of the course we've developed a Proof of Concept utilizing the Arduino platform. The problem is, that me and [my project teammate](http://www.vandorp.biz/ "Daniel van Dorp") have too many ideas! So in this blog post I intend to share 3 ideas, and I hope readers will give their opinions and deliver some feedback on the proposals!
