@@ -33,13 +33,19 @@ DEFAULT_PAGINATION = 5
 
 TAG_CLOUD_MAX_ITEMS = 10
 
+DISPLAY_CATEGORIES_ON_MENU = False
+
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'nl2br']
 THEME = os.path.join(os.environ.get('HOME'),
                      'projects/bootstrap3-readable')
 
+# THEME = os.path.join(os.environ.get('HOME'),
+#                      'pelican-themes/bootstrap2')
+
 PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
                            'projects/tools/pelican-plugins')
 
+DISQUS_SITENAME = "dandydev-dev"
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
