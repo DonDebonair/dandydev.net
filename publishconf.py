@@ -20,8 +20,9 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
-DISQUS_SITENAME = "dandydev"
-GOOGLE_ANALYTICS = "UA-24099413-2"
+DISQUS_SITENAME = 'dandydev'
+GOOGLE_ANALYTICS = 'UA-24099413-2'
+ADDTHIS_PROFILE = 'ra-4f274b9c7023574d'
 
 ARTICLE_URL = 'blog/{slug}'
 ARTICLE_SAVE_AS = 'blog/{slug}.html'

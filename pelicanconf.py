@@ -45,7 +45,8 @@ THEME = os.path.join(os.environ.get('HOME'),
 PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
                            'projects/tools/pelican-plugins')
 
-DISQUS_SITENAME = "dandydev-dev"
+DISQUS_SITENAME = 'dandydev-dev'
+ADDTHIS_PROFILE = 'ra-520d4af6518bf3c7'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
