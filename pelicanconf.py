@@ -37,16 +37,18 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'nl2br']
 THEME = os.path.join(os.environ.get('HOME'),
-                     'projects/bootstrap3-readable')
+                     'projects/pelican-bootstrap3')
 
-# THEME = os.path.join(os.environ.get('HOME'),
-#                      'pelican-themes/bootstrap2')
+BOOTSWATCH_THEME = 'readable'
 
 PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
                            'projects/tools/pelican-plugins')
 
 DISQUS_SITENAME = 'dandydev-dev'
 ADDTHIS_PROFILE = 'ra-520d4af6518bf3c7'
+
+FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),
+                 ('extra/favicon.ico', 'favicon.ico'),)
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
