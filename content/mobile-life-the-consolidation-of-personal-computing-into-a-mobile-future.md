@@ -1,6 +1,5 @@
 Title: Mobile life: the consolidation of personal computing into a mobile future
 Date: 2011-09-17 13:59
-Category: Research
 Tags: mobile, ubiquitous computing, future
 Slug: mobile-life-the-consolidation-of-personal-computing-into-a-mobile-future
 Summary: _This article was written as an assignment for my Computer Science studies at the [Rotterdam University of Applied Sciences](http://hogeschoolrotterdam.nl/international-students/rotterdam-university "Rotterdam University of Applied Sciences"). I wrote it together with [Daniel van Dorp](http://www.vandorp.biz/ "Daniel"). Note that we're certainly no experts on the subject, so - aside from the information derived from the listed sources - most of this article is based on conjecture and speculations. Feel free to comment on both our ideas and our interpretation of sources._

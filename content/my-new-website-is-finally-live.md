@@ -1,6 +1,5 @@
 Title: My new website is finally live!
 Date: 2011-09-01 03:12
-Category: Announcements
 Tags: breaking news, diem, symfony, this site, php
 Slug: my-new-website-is-finally-live
 Summary: ...well, technically not anymore than it was the last 10 days or so, but now it's filled bottom-to-top with new content for your enjoyment and ready to be shared with the world! I've been steadily working on this since the end of the last semester and it took me the whole summer break to get it to the state it is in now. At the moment, it's about 2:45 AM in the morning, and long due bedtime, but I decided that today was the day it was going to happen. Today the moment would come that all the fruits of my labor would finally be ripe enough for the picking. And as it always turns out, those last dotted i's and crossed t's take quite some more time than you imagine they will, when you set out for that last sprint to the finish.

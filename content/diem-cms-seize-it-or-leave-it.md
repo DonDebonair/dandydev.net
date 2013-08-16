@@ -1,6 +1,5 @@
 Title: Diem CMS: Seize it or leave it?
 Date: 2012-01-07 22:53
-Category: Web Development
 Tags: diem, symfony, php, review, cms, cmf
 Slug: diem-cms-seize-it-or-leave-it
 Summary: A long, long while ago, I promised some people - including myself - a decent review of the [CMS I used to build this site](http://www.diem-project.org/ "Diem"). Of course, as it always goes, I got lost in some kind of time-sucking black hole called study-and-work. I still remember [the article](http://www.robertspeer.com/blog/apostrophenow-a-cms-so-easy-even-your-mom-could-use-it/ "Robert Speer on Apostrophe CMS") that made me choose Diem in the first place, though. His words, in an email conversation following that article he wrote: "My preference is that you try out Diem and write a review like mine with a live preview" As you can see, I did try out Diem (this site is built with it). In [my first blogpost on this site](http://dandydev.net/blog/my-new-website-is-finally-live "My First Post"), you can read in detail how the birth of this site came down. The only thing that's still missing, is that review, so I reckoned it was about time to correct that mistake.
