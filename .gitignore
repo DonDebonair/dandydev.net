@@ -6,3 +6,5 @@
 *.out
 *.py[cod]
 output
+.idea/*
+.env
