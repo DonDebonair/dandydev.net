@@ -11,7 +11,6 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'http://dandydev.net'
-RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 
@@ -31,3 +30,5 @@ PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
 TAG_URL = 'tags/{slug}'
 TAG_SAVE_AS = 'tags/{slug}.html'
+
+RELATIVE_URLS = False

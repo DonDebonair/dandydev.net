@@ -42,6 +42,10 @@ THEME = os.path.join(os.environ.get('HOME'),
 
 BOOTSWATCH_THEME = 'readable'
 
+USE_OPEN_GRAPH = True
+OPEN_GRAPH_FB_APP_ID = '202018593182706'
+OPEN_GRAPH_IMAGE = 'images/dandydev.png'
+
 PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
                            'projects/tools/pelican-plugins')
 
