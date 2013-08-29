@@ -40,7 +40,7 @@ MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'nl2br']
 THEME = os.path.join(os.environ.get('HOME'),
                      'projects/pelican-bootstrap3')
 
-BOOTSWATCH_THEME = 'readable'
+BOOTSTRAP_THEME = 'readable'
 
 USE_OPEN_GRAPH = True
 OPEN_GRAPH_FB_APP_ID = '202018593182706'
