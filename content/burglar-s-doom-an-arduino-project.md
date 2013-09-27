@@ -21,19 +21,19 @@ Let's start by mentioning what boards & sensors we used:
 We hooked it up using [a breadboard](http://www.sparkfun.com/products/8800 "BreadBoard"), which makes it easy to play around in a plug-and-play way. I don't have proper schematics, but I'm sure you can figure it out from the pictures I present here:
 
 _Overview 1_
-![](|filename|/images/img_20111025_152826.jpg)
+![Overview 1]({filename}/images/img_20111025_152826.jpg)
 
 _Overview 2_
-![](|filename|/images/img_20111025_152843.jpg)
+![Overview 2]({filename}/images/img_20111025_152843.jpg)
 
 _Arduino & Ethernetshield_
-![](|filename|/images/img_20111104_102727.jpg)
+![Arduino & Ethernetshield]({filename}/images/img_20111104_102727.jpg)
 
 _Breadboard & PIR Motion Sensor_
-![](|filename|/images/img_20111104_102708.jpg)
+![Breadboard & PIR Motion Sensor]({filename}/images/img_20111104_102708.jpg)
 
 _Final Overview_
-![](|filename|/images/img_20111104_102657.jpg)
+![Final Overview]({filename}/images/img_20111104_102657.jpg)
 
 The Ethernet Shield was hooked up to a regular, cheap Cisco Router. In order for the Ethernet Shield to be able to communicate with the Internet, you have to give it a static IP. You could also use the [Arduino EthernetDHCP Library](http://gkaindl.com/software/arduino-ethernet/dhcp "EthernetDHCP").
 

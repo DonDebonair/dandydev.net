@@ -17,14 +17,14 @@ Below, I will in short fashion present some of the results of my research so far
 In order to have an idea what manner of data-related problems were cropping up in the daily processes that were part of 2organize's business proposition, and to what extend they were BigData related and could be solved with Hadoop, I interviewed around 1/4th of the 160 employees. I took a sample from the myriad of functions and levels within the company, to get a clear image of what they're dealing with. 
 One of the first interesting patterns that emerged, was the lack of knowledge about BigData in general. While most of the interviewees have heard about BigData in one way or the other, the majority doesn't have a clear idea what BigData actually entails, let alone the technologies that deal with BigData. This isn't all that surprising though, and it's a sign that emphasis within 2organize lies more with marketing than with the technology their using. Oracle, Unica, Tripolis, they're tools to get a job done. This is a reflection of their "Best of Breed" practice.
 
-![](|filename|/images/bigdata-familiarity.png)
+![bigdata-familiarity.png]({filename}/images/bigdata-familiarity.png)
 
 After explaining what BigData is exactly, many of the interviewees were able to identify general applications of BigData (not related to their work). Two bighitters:
 
 - WebAnalytics/Online Behaviour: they're talking mostly about analysing that kind of data
 - Processing large quantities of data: this is the most general application of BigData
 
-![](|filename|/images/general-bigdata-applications.png)
+![general-bigdata-applications.png]({filename}/images/general-bigdata-applications.png)
 
 Not knowing about BigData, doesn't mean data-problems relating BigData aren't encountered with their clients though. Gartner's [_definition_ of BigData](http://blogs.gartner.com/doug-laney/deja-vvvue-others-claiming-gartners-volume-velocity-variety-construct-for-big-data/) talks about the 3V's:
 
@@ -35,7 +35,7 @@ Not knowing about BigData, doesn't mean data-problems relating BigData aren't en
 Within common marketing (automation) processes as they currently happen, _volume_ doesn't seem to play a big role. Considering CRM data and sometimes transactional data, are the only kinds of data that are used, we're talking about millions of records at most, with the largest clients. _Velocity_ isn't a problem either so far. Even if they add thousands of customers each day, the data still is managable. If you grant companies their wish and start adding social media data though, velocity of data starts becoming a problem though. _Variety_ is already becoming a problem. Companies start adding WebAnalytics data to the mix more often, which is almost unstructured, and doesn't fit the relational model the CRM data is currently stored in. In other words, it's hard to actually couple that data to your existing CRM data.
 When asked for potential usecases of BigData technologies in their work, the interviewees came up with these answers:
 
-[![](|filename|/images/hadoop-bigdata-applications-small.png)](|filename|/images/hadoop-bigdata-applications.png)
+[![hadoop-bigdata-applications.png]({filename}/images/hadoop-bigdata-applications-small.png)]({filename}/images/hadoop-bigdata-applications.png)
 
 _Click to enlarge_
 

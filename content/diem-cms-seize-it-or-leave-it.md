@@ -43,11 +43,11 @@ As said, Diem is a CMF and contains the infrastructure to build websites, includ
 ### Front and Admin editors
 After setting up the website and templates, you want to fill it with content. This is also one of the strengths of Diem. It has two editing modes: The admin/backend, and the front editor. The first is for uploading media, managing your templates and other admin-related stuff, the latter is for actually building your content. The predefined building blocks I talked about, are available as widgets that you can drag into the areas you previously defined in your templates. The widget menu looks like this:
 
-![](|filename|/images/widgetmenu.png)
+![widgetmenu.png]({filename}/images/widgetmenu.png)
 
 And when you add those widgets to your site, in editing-mode, it looks like this:
 
-![](|filename|/images/wysiwyg.png)
+![wysiwyg.png]({filename}/images/wysiwyg.png)
 
 The "Zones" you see, are a way of dividing areas in smaller parts. You can for instance, add 2 zones, and define their width as 50% (there's a dialogbox for that), which turns an area in a 2-column area. You can then add widgets to both columns.
 As said, you just drag&drop the widgets to their desired places, and you instantly see the result. Of course, with the flexibility Diem offers, you can develop widgets of your own.
@@ -55,7 +55,7 @@ In the front editor, you can also easily add new pages to your site, and add tho
 
 The design of the whole editing-experience feels outdated to my tastes, and is clearly cooked up by developers, not designers. In the admin/backend this is most apparent. Another downside is that the admin/backend feels buggy at some points. You can for instance, add Google Analytics to your site, after which some nice graphs appear on your dashboard, based on the data Diem pulled in from your GA account. Somehow Diem never seems to remember me connecting my GA account, because I have to do it again almost every time I log in. The dashboard graphs look like this, by the way:
 
-![](|filename|/images/ga.png)
+![ga.png]({filename}/images/ga.png)
 
 ### Wow, is that AI or what?
 

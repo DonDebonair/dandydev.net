@@ -20,7 +20,12 @@ TRANSLATION_FEED_ATOM = None
 GITHUB_USER = 'DandyDev'
 GITHUB_SKIP_FORK = True
 
-STATIC_PATHS = ['images', 'files']
+STATIC_PATHS = ['images', 'files', 'extra/robots.txt', 'extra/favicon.ico']
+
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
 
 # Blogroll
 LINKS = None
@@ -51,9 +56,6 @@ PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
 
 DISQUS_SITENAME = 'dandydev-dev'
 ADDTHIS_PROFILE = 'ra-520d4af6518bf3c7'
-
-FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),
-                 ('extra/favicon.ico', 'favicon.ico'),)
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
