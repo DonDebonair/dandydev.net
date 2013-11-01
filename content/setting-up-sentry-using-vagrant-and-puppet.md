@@ -22,7 +22,9 @@ I could rehash here, what it is I have done, but [the code is on GitHub](https:/
 * Supervisord as a tool for running Sentry and keeping it up
 * NginX as reverse proxy in front of Sentry
 
-It's pretty basic, but I'm happy with the results nonetheless! All in all, learning Puppet wasn't too hard, but there are some gotcha's and caveats which I want to share:
+It's pretty basic, but I'm happy with the results nonetheless! I also immediately fell in love with Sentry! I'm definitely going to introduce it at [Info.nl](http://www.info.nl/en) because I have the feeling it might be a game changer when it comes to the health of our applications and the sanity of our engineers.
+
+All in all, learning Puppet wasn't too hard, but there are some gotcha's and caveats which I want to share:
 
 * Puppet isn't about chaining together commands to get to the desired configuration. It's about defining the desired state and let Puppet do the rest. You're pretty much "ensuring" that stuff is "present" (or absent, for that matter).
 * When you define states, don't expect Puppet to adhere to any implied ordering! It doesn't run through your manifest making sure stuff is installed in the order you defined it. If you want ordering, you have to explicitly declare dependencies like so:
