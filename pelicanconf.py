@@ -43,7 +43,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'nl2br']
 THEME = os.path.join(os.environ.get('HOME'),
-                     'projects/pelican-bootstrap3')
+                     'projects/python/pelican-bootstrap3')
 
 BOOTSTRAP_THEME = 'readable'
 
@@ -52,7 +52,7 @@ OPEN_GRAPH_FB_APP_ID = '202018593182706'
 OPEN_GRAPH_IMAGE = 'images/dandydev.png'
 
 PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
-                           'projects/tools/pelican-plugins')
+                           'projects/tools/python/pelican-plugins')
 
 DISQUS_SITENAME = 'dandydev-dev'
 ADDTHIS_PROFILE = 'ra-520d4af6518bf3c7'
