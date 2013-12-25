@@ -41,11 +41,13 @@ TAG_CLOUD_MAX_ITEMS = 10
 
 DISPLAY_CATEGORIES_ON_MENU = False
 
+DISPLAY_TAGS_ON_SIDEBAR = True
+
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'nl2br']
 THEME = os.path.join(os.environ.get('HOME'),
                      'projects/python/pelican-bootstrap3')
 
-BOOTSTRAP_THEME = 'readable'
+BOOTSTRAP_THEME = 'readable-old'
 
 USE_OPEN_GRAPH = True
 OPEN_GRAPH_FB_APP_ID = '202018593182706'
