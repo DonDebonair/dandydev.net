@@ -1,5 +1,5 @@
 Title: Statserver: setting up monitoring & statistics with Ansible
-Date: 2014-02-27 22:00
+Date: 2014-03-02 22:00
 Tags: graphite, statsd, sentry, ansible, vagrant, devops
 Slug: statserver-setting-up-monitoring-and-statistics-with-ansible
 
@@ -27,7 +27,7 @@ I had the following requirements when setting this up:
 
 ### Installation
 
-For people who are only interested in getting up-and-running, I'll start with the installation instructions. If you want to install this on a real server, you'll only need Ansible. Instructions for installing Ansible, [can be found on their website](http://docs.ansible.com/intro_installation.html), but I'll sum up here how I'd recommend installing Ansible:
+For people who are only interested in getting up-and-running, I'll first continue with the installation instructions. If you want to install this on a real server, you'll only need Ansible. Instructions for installing Ansible, [can be found on their website](http://docs.ansible.com/intro_installation.html), but I'll sum up here how I'd recommend installing Ansible:
 
 * **Linux**: Use [PIP](http://www.pip-installer.org/) to install Ansible by running `sudo pip install ansible`.
 * **OS X**: Install Ansible with Homebrew by running `brew install ansible`. Installation using Homebrew PIP (you're not using OS X's default Python, are you?) doesn't work [because of hardcoded paths](https://github.com/Homebrew/homebrew/pull/21602#issue-17540275). 
