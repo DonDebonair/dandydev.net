@@ -166,7 +166,7 @@ After the Graphite/StatsD Playbook was done, it was a matter of putting both Pla
 
 ### Github
 
-All of my work as detailed above can be found on Github of course. The end result can be found [here](https://github.com/DandyDev/statserver). Or you could use only [Sentry](https://github.com/DandyDev/sentry-ansible-vagrant) or [Graphite/StatsD](https://github.com/DandyDev/graphite-statsd-ansible-vagrant).
+All of my work as detailed above can be found on Github of course. [Statserver](https://github.com/DandyDev/statserver), the end result can be found [here on GitHub](https://github.com/DandyDev/statserver). Or you could use only [Sentry](https://github.com/DandyDev/sentry-ansible-vagrant) or [Graphite/StatsD](https://github.com/DandyDev/graphite-statsd-ansible-vagrant).
 
 Contributions and ideas are welcome!
 
