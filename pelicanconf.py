@@ -45,9 +45,11 @@ DISPLAY_TAGS_ON_SIDEBAR = True
 
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'nl2br', 'headerid']
 THEME = os.path.join(os.environ.get('HOME'),
-                     'projects/python/pelican-bootstrap3')
+                     'projects/pelican-bootstrap3')
 
-BOOTSTRAP_THEME = 'readable-old'
+BOOTSTRAP_THEME = 'simplex'
+
+BOOTSTRAP_NAVBAR_INVERSE = True
 
 USE_OPEN_GRAPH = True
 OPEN_GRAPH_FB_APP_ID = '202018593182706'
