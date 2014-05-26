@@ -13,6 +13,7 @@ If you're anxious to see the end result, [you can watch it right away on YouTube
 
 ### Hardware
 Let's start by mentioning what boards & sensors we used:
+
 - [Arduino Uno](http://arduino.cc/en/Main/ArduinoBoardUno "ArduinoUno"): This was our Arduino board
 - [Ethernet Shield](http://arduino.cc/en/Main/ArduinoEthernetShield "Ethernet Shield"): Used for communicating with Twitter. It's of course also possible to use a WiFi shield here.
 - [PIR Motion Sensor](http://www.sparkfun.com/products/8630 "Motion Sensor"): Detecting Burglar's and other baddies.
@@ -39,6 +40,7 @@ The Ethernet Shield was hooked up to a regular, cheap Cisco Router. In order for
 
 ### Code
 You might be wondering how we programmed it. If you scroll down, you'll see the complete source code, thoroughly commented to explain what's happening. We used the following libraries to make it work:
+
 - [Ethernet](http://arduino.cc/en/Reference/Ethernet "Ethernet"): For communicating with the Internet
 - [SPI](http://arduino.cc/en/Reference/SPI "SPI"): For communicating with the PIR Motion Sensor
 - [Twitter](http://www.markkurossi.com/ArduinoTwitter/ "Twitter Library"): This one does the Twitter magick using 2-legged OAuth

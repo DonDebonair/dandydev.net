@@ -15,6 +15,7 @@ Below, I will in short fashion present some of the results of my research so far
 
 ### Identifying BigData problems in Marketing
 In order to have an idea what manner of data-related problems were cropping up in the daily processes that were part of 2organize's business proposition, and to what extend they were BigData related and could be solved with Hadoop, I interviewed around 1/4th of the 160 employees. I took a sample from the myriad of functions and levels within the company, to get a clear image of what they're dealing with. 
+
 One of the first interesting patterns that emerged, was the lack of knowledge about BigData in general. While most of the interviewees have heard about BigData in one way or the other, the majority doesn't have a clear idea what BigData actually entails, let alone the technologies that deal with BigData. This isn't all that surprising though, and it's a sign that emphasis within 2organize lies more with marketing than with the technology their using. Oracle, Unica, Tripolis, they're tools to get a job done. This is a reflection of their "Best of Breed" practice.
 
 ![bigdata-familiarity.png]({filename}/images/bigdata-familiarity.png)

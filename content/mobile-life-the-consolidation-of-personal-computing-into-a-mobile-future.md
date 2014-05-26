@@ -8,6 +8,7 @@ _This article was written as an assignment for my Computer Science studies at th
 
 ### Introduction
 With the deep penetration of mobile devices in both western and emerging markets, there’s no question about the impact of mobile computing in everyday life. In the rapidly evolving landscape of ubiquitous computing, we see more and more tasks that were traditionally better suited for personal computers, taken over by smartphones, tablets and other mobile peripherals. One might argue that mobile devices of today can be considerend personal computers in their own right. When we look at the numbers, we’re getting close to a point where more [smartphones are sold each day](http://tech.fortune.cnn.com/2010/08/11/the-­‐great-­‐game-­‐mobile-­‐devices-­‐overtaking-­‐pcs/ "The numbers don't lie: Mobile devices overtaking PCs"), [than personal computer OSes](http://betanews.com/2011/02/09/the-­‐pc-­‐era-­‐is-­‐over/ "The PC era is over"). There are still, however, some scenarios in which the traditional personal computer is favored over it’s smaller brethren.
+
 In this article we will explore the possibilities of mobile devices taking the role of personal computers altogether. We will look at the developments in hardware and software necessary for such a transition and we will consider the economic stimuli for such an evolution.
 
 ### Mobile usage: a division by context
