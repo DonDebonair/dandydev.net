@@ -43,7 +43,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 DISPLAY_TAGS_ON_SIDEBAR = True
 
-MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'nl2br', 'headerid']
+MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid']
 THEME = os.path.join(os.environ.get('HOME'),
                      'projects/python/pelican-bootstrap3')
 
