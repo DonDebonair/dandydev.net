@@ -45,7 +45,7 @@ DISPLAY_TAGS_ON_SIDEBAR = True
 
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'nl2br', 'headerid']
 THEME = os.path.join(os.environ.get('HOME'),
-                     'projects/pelican-bootstrap3')
+                     'projects/python/pelican-bootstrap3')
 
 BOOTSTRAP_THEME = 'simplex'
 
