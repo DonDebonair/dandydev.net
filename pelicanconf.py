@@ -57,8 +57,8 @@ OPEN_GRAPH_IMAGE = 'images/dandydev.png'
 
 CC_LICENSE = "CC-BY-NC-SA"
 
-PLUGIN_PATH = os.path.join(os.environ.get('HOME'),
-                           'projects/python/pelican-plugins')
+PLUGIN_PATHS = [os.path.join(os.environ.get('HOME'),
+                'projects/python/pelican-plugins')]
 
 DISQUS_SITENAME = 'dandydev-dev'
 ADDTHIS_PROFILE = 'ra-520d4af6518bf3c7'
@@ -72,3 +72,4 @@ PAGE_URL = '{slug}.html'
 PAGE_SAVE_AS = '{slug}.html'
 TAG_URL = 'tags/{slug}.html'
 TAG_SAVE_AS = 'tags/{slug}.html'
+TAGS_URL = 'tags.html'

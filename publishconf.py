@@ -30,5 +30,5 @@ PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
 TAG_URL = 'tags/{slug}'
 TAG_SAVE_AS = 'tags/{slug}.html'
-
+TAGS_URL = 'tags'
 RELATIVE_URLS = False
