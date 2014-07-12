@@ -9,3 +9,6 @@ output
 .idea/*
 .env
 cache
+*.ipr
+*.iml
+*.iws
