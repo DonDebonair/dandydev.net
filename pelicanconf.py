@@ -20,6 +20,8 @@ TRANSLATION_FEED_ATOM = None
 GITHUB_USER = 'DandyDev'
 GITHUB_SKIP_FORK = True
 
+TWITTER_USERNAME = 'DaanDebie'
+
 STATIC_PATHS = ['images', 'files', 'extra/robots.txt', 'extra/favicon.ico']
 
 EXTRA_PATH_METADATA = {
