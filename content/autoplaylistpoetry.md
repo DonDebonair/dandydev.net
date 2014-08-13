@@ -7,7 +7,7 @@ A while ago I decided to try and build a little app that makes use of Spotify's 
 
 The result is a this little (web)app automatically generates [Spotify](https://www.spotify.com) playlists based on a search query entered by the user. _Auto Playlist Poetry_ is a proof-of-concept that's inspired by [**Playlist Poetry**](http://playlistpoetry.com/), which in turn was based on [this Tumbler blog](http://spotifypoetry.tumblr.com/). The idea is that the user can provide a message and the application will use the Spotify Metadata API to find songs whose titles together make up the provided message. 
 
-I started out by building a simple command line app that served the aforementioned purpose. But as I progressed, I wanted to experiment with different technologies in different settings and eventually ended up with more than one application, which I will detail below. Both are written in Python.
+I started out by building a simple command line app that served the aforementioned purpose. But as I progressed, I wanted to experiment with different technologies in different settings and eventually ended up with more than one application - a command line app and a web app - which I will detail below. Both are written in Python.
 
 This blog post will detail what I built, what choices I made, what algorithm underlies the results, what technologies were used, etc.
 
