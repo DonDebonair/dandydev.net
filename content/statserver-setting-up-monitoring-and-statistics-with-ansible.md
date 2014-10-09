@@ -53,8 +53,8 @@ You should now edit the `statserver.yml` file and modify a few variables:
 Now, for creating a VM locally to try this out, you can do the following:
 
 ```bash
-$ echo "graphite.local" >> /etc/hosts
-$ echo "sentry.local" >> /etc/hosts
+$ echo "127.0.0.1 graphite.local" >> /etc/hosts
+$ echo "127.0.0.1 sentry.local" >> /etc/hosts
 $ vagrant up
 ```
 
