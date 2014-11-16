@@ -40,6 +40,8 @@ SOCIAL = (('twitter', 'http://twitter.com/DaanDebie'),
           ('linkedin', 'http://www.linkedin.com/in/danieldebie'),
           ('github', 'http://github.com/DandyDev'),)
 
+DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
+
 DEFAULT_PAGINATION = 5
 
 TAG_CLOUD_MAX_ITEMS = 10
