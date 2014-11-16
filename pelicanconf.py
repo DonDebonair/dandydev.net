@@ -22,11 +22,14 @@ GITHUB_SKIP_FORK = True
 
 TWITTER_USERNAME = 'DaanDebie'
 
-STATIC_PATHS = ['images', 'files', 'extra/robots.txt', 'extra/favicon.ico']
+CUSTOM_CSS = 'static/custom.css'
+
+STATIC_PATHS = ['images', 'files', 'extra/robots.txt', 'extra/favicon.ico', 'extra/custom.css']
 
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
-    'extra/favicon.ico': {'path': 'favicon.ico'}
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/custom.css': {'path': 'static/custom.css'}
 }
 
 # Blogroll
@@ -53,6 +56,8 @@ BOOTSTRAP_THEME = 'simplex'
 
 BOOTSTRAP_NAVBAR_INVERSE = True
 
+BANNER = 'images/banner.jpg'
+
 USE_OPEN_GRAPH = True
 OPEN_GRAPH_FB_APP_ID = '202018593182706'
 OPEN_GRAPH_IMAGE = 'images/dandydev.png'
@@ -65,7 +70,8 @@ PLUGIN_PATHS = [os.path.join(os.environ.get('HOME'),
 
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
-           'liquid_tags.include_code', 'liquid_tags.notebook']
+           'liquid_tags.include_code', 'liquid_tags.notebook',
+           'tipue_search']
 
 DISQUS_SITENAME = 'dandydev-dev'
 ADDTHIS_PROFILE = 'ra-520d4af6518bf3c7'
