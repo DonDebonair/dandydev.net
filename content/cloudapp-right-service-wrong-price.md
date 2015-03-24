@@ -53,9 +53,9 @@ So, I said I was willing to pay, and I actually _do_ pay for services that are b
 
 So here's Evernote, as service that costs a lot less than CloudApp, and offers so much more. Then there's Netflix, which is a tad more expensive than the cheapest (one-time deal) CloudApp plan but still cheaper than CloudApp's regular monthly pricing, and it also offers so much more for that price.
 
-I know that their services are not comparable at all to CloudApp, but I'm trying to make a case for value-for-money here. Arguably, CloudApp has you pay a lot for only 1 feature: file sharing. And that's not even _real comprehensive_ file sharing, like Dropbox and Google Drive offer (the latter of a lower price than CloudApp, I might add).
+I know that their services are not comparable at all to CloudApp, but I'm trying to make a case for value-for-money here. Arguably, CloudApp has you pay a lot for only 1 feature: file sharing. And that's not even _real comprehensive_ file sharing, like Dropbox and Google Drive offer (the latter for a lower price than CloudApp, I might add).
 
-What makes CloudApp so expensive, I wonder? Netflix definitely has more costs, looking at all the licensing fees they have to pay content creators. Evernote might be looking and the same kind of costs as CloudApp, although one might argue that Evernote's more complex service offering, also demands more of their infrastructure than is the case with CloudApp.
+What makes CloudApp so expensive, I wonder? Netflix definitely has more operating costs, looking at all the licensing fees they have to pay to content creators. Evernote might be looking at the same kind of costs as CloudApp - basically they pay for infrastructure and development - although one might argue that Evernote's more complex service offering, also demands more of their infrastructure than is the case with CloudApp.
 
 ### Conclusion and proposal
 
