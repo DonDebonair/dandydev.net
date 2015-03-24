@@ -72,8 +72,7 @@ PLUGIN_PATHS = [os.path.join(os.environ.get('HOME'),
 
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
-           'liquid_tags.include_code', 'liquid_tags.notebook',
-           'tipue_search']
+           'liquid_tags.include_code', 'tipue_search']
 
 DISQUS_SITENAME = 'dandydev-dev'
 ADDTHIS_PROFILE = 'ra-520d4af6518bf3c7'
