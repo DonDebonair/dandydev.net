@@ -1,6 +1,6 @@
 Title: CloudApp, the right service for the wrong price
 Date: 2015-03-24 21:00
-Tags: cloudapp, evernote, netflix, business model
+Tags: cloudapp, evernote, netflix, pricing model
 Slug: cloudapp-right-service-wrong-price
 
 I've been a happy user of screenshot-sharing service [CloudApp](https://www.getcloudapp.com/) for years now. I say screenshot service because, although you can upload "drops" of many kinds (links, screenshots, files etc.), the thing I used it for exclusively, was for automatically sharing screenshots I made. 
