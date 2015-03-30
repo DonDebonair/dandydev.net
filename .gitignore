@@ -12,3 +12,4 @@ cache
 *.ipr
 *.iml
 *.iws
+!*.jar
