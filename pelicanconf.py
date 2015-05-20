@@ -38,7 +38,8 @@ LINKS = None
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/DaanDebie'),
           ('linkedin', 'http://www.linkedin.com/in/danieldebie'),
-          ('github', 'http://github.com/DandyDev'),)
+          ('github', 'http://github.com/DandyDev'),
+          ('stackoverflow', 'http://stackoverflow.com/users/872397/dandydev', 'stack-overflow'),)
 
 DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
 
