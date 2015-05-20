@@ -32,3 +32,5 @@ TAG_URL = 'tags/{slug}'
 TAG_SAVE_AS = 'tags/{slug}.html'
 TAGS_URL = 'tags'
 RELATIVE_URLS = False
+
+SEARCH_URL = '/search'
