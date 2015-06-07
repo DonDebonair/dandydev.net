@@ -42,7 +42,7 @@ Find it [on Github](https://github.com/datadudes/wsdl2avro)
 
 ### Athena
 
-[![Live examples](terminal.gif)](https://asciinema.org/a/15439)
+<script type="text/javascript" src="https://asciinema.org/a/15439.js" id="asciicast-15439" async></script>
 
 Athena is a convenient command line tool that enables you to interact with and query a Hadoop cluster from your local terminal, 
 removing the need for remote SSH sessions. Athena makes the life of every data scientist and engineer a lot easier by 
