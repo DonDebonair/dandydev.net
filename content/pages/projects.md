@@ -66,6 +66,7 @@ Find it [on Github](https://github.com/datadudes/athena)
 The theme that this blog was built on. It is a theme for use with the Pelican static blog generator.
 
 Find it [on Github](https://github.com/DandyDev/pelican-bootstrap3)
+
 Blog posts [about this theme](http://dandydev.net/tags/pelican)
 
 ### Impala REST API
@@ -87,4 +88,5 @@ Find it [on Github](https://github.com/DandyDev/gitsentry)
 ... can be found on Github:
 
 [github.com/DandyDev](https://github.com/DandyDev)
+
 [github.com/datadudes](https://github.com/datadudes)
