@@ -3,6 +3,8 @@ Date: 2015-03-24 21:00
 Tags: cloudapp, evernote, netflix, pricing model
 Slug: cloudapp-right-service-wrong-price
 
+**Update 7-6-2015: I switched to Dropshare, scroll down for more info.**
+
 I've been a happy user of screenshot-sharing service [CloudApp](https://www.getcloudapp.com/) for years now. I say screenshot service because, although you can upload "drops" of many kinds (links, screenshots, files etc.), the thing I used it for exclusively, was for automatically sharing screenshots I made. 
 
 It goes something like this: everytime you make a screenshot, using ⌘ + ⇧ + 3 (or 4), CloudApp automagically uploads your screenshot to their servers, creates a short-url and puts that on your clipboard. One ⌘ + v later it's on Slack/email/where-ever-you-want.
@@ -22,7 +24,7 @@ This is the email:
 
 > As an active CloudApp user, we would like to extend a 33%-off coupon for you. That's 12 months for the price of eight — effectively dropping your monthly rate to just $5.50, less than the price of two cups of coffee.
 
-They're trying to get me to pay for their service, and giving a good discount in the process. And their price is the real reason I'm writing this.
+They're trying to get me to pay for their service, and give a good discount in the process. But their price is the real reason I'm writing this.
 
 ### Too much for too little
 
@@ -61,4 +63,7 @@ What makes CloudApp so expensive, I wonder? Netflix definitely has more operatin
 
 I can only conclude that the folks at CloudApp have vastly overestimated the value of their service. At least _from my perspective_ the service is not worth the money they're asking. I'm really curious to the underlying reasoning for their pricing model, and how it compares to other online services. Why do they think their service is worth more than, for instance, Evernote, Google Drive or Netflix?
 
-I have a proposal: if CloudApp offers their "Rain" plan to me for $5 per month, payed monthly, I'm in! Because I like their service :)
+I have a proposal: if CloudApp offers their "Rain" plan to me for $5 per month, paid monthly, I'm in! Because I like their service :)
+
+**Update 7-6-15:** After doing on research on alternatives, I settled on [Dropshare](https://getdropsha.re/). Dropshare does exactly the same things as Cloudapp does, but on hosting of your own choice. They offer a nice trial, and during the CloudApp "crisis", they even put the app on sale. What you get is a Mac app that will do automatic file uploads (including screenshots) to whatever hosting solution you configure. I already had a VM running that this website is hosted on, so I quickly got up and running. In the scenario where you already have hosting, paying a one-time fee for Dropshare is lots cheaper then having to pay a monthly fee. Since last week it even includes screen recording!
+
