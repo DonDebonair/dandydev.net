@@ -53,7 +53,7 @@ DISPLAY_TAGS_ON_SIDEBAR = True
 
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid']
 THEME = os.path.join(os.environ.get('HOME'),
-                     'projects/python/pelican-bootstrap3')
+                     'projects/tools/pelican-bootstrap3')
 
 BOOTSTRAP_THEME = 'simplex'
 
@@ -69,11 +69,12 @@ TWITTER_CARDS = True
 CC_LICENSE = "CC-BY-NC-SA"
 
 PLUGIN_PATHS = [os.path.join(os.environ.get('HOME'),
-                'projects/python/pelican-plugins')]
+                'projects/tools/pelican-plugins')]
 
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
-           'liquid_tags.include_code', 'tipue_search']
+           'liquid_tags.include_code', 'tipue_search',
+           'tag_cloud']
 
 DISQUS_SITENAME = 'dandydev-dev'
 ADDTHIS_PROFILE = 'ra-520d4af6518bf3c7'
