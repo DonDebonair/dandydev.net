@@ -51,9 +51,17 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 DISPLAY_TAGS_ON_SIDEBAR = True
 
-MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid']
+MARKDOWN = {
+  'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.headerid': {},
+  },
+  'output_format': 'html5',
+}
+
 THEME = os.path.join(os.environ.get('HOME'),
-                     'projects/tools/pelican-bootstrap3')
+                     'projects/tools/pelican-themes/pelican-bootstrap3')
 
 BOOTSTRAP_THEME = 'simplex'
 
@@ -74,7 +82,11 @@ PLUGIN_PATHS = [os.path.join(os.environ.get('HOME'),
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
            'liquid_tags.include_code', 'tipue_search',
-           'tag_cloud']
+           'tag_cloud', 'i18n_subsites']
+
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
 
 DISQUS_SITENAME = 'dandydev-dev'
 ADDTHIS_PROFILE = 'ra-520d4af6518bf3c7'
