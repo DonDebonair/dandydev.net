@@ -1,6 +1,33 @@
 Title: Projects
 
-Here you can find information related to the projects I work on.
+Here you can find information related to the open-source projects I work on.
+
+### Slack Machine
+
+Slack Machine is a sexy, simple, yet powerful and extendable Slack bot. More than just a bot, 
+Slack Machine is a framework that helps you develop your Slack workspace into a ChatOps powerhouse.
+
+**Features**
+
+- Get started with mininal configuration
+- Built on top of the Slack RTM API for smooth, real-time interactions
+- Support for rich interactions using the Slack Web API
+- High-level API for maximum convenience when building plugins
+- Low-level API for maximum flexibility
+- Plugin API features:
+    - Listen and respond to any regular expression
+    - Capture parts of messages to use as variables in your functions
+    - Respond to messages in channels, groups and direct message conversations
+    - Respond with Emoji
+    - Respond in threads
+    - Send DMs to any user
+    - Support for message attachments
+    - Listen and respond to any Slack event supported by the RTM API
+    - Store and retrieve any kind of data in persistent storage (currently Redis and in-memory storage are supported)
+    - Schedule actions and messages
+    - Emit and listen for events
+
+Find it [on Github](https://github.com/DandyDev/slack-machine)
 
 ### Salesforce2hadoop
 
@@ -9,7 +36,7 @@ Avro. Despite its boring name, it's a powerful tool that helps you get all relev
 It only needs access to the Salesforce API using a username/password combination, and the Enterprise WSDL of your 
 Salesforce Organisation.
 
-Features:
+**Features**
 
 - Choose the type(s) of records you want to import
 - Data types are preserved by looking at the Enterprise WSDL of your Salesforce Organisation
@@ -31,7 +58,7 @@ the data somewhere (e.g. in a Hadoop cluster) serialized in Avro format.
 
 This library has been extensively used in production.
 
-Features:
+**Features**
 
 - Provide a path to a WSDL document, or a File object, and get a `Map` with type names and Avro `Schema` objects in return.
 - Converts XML primitives to Avro primitives

@@ -1,6 +1,5 @@
 Title: VirtPHP: filling a non-existing gap
 Date: 2014-03-15 17:00
-Tags: php, virtphp, composer, package management, virtualenv, vagrant
 Slug: virtphp-filling-a-non-existing-gap
 
 About a week ago, a tweet caught my eye about a project called [VirtPHP](http://virtphp.org/). Now, I don't follow many people from the PHP community anymore, because I've really grown to dislike PHP over the past few years, and I've mostly gone [off to](https://www.python.org/) [greener](http://www.oracle.com/technetwork/java/index.html) [pastures](http://www.scala-lang.org/). But I still follow a couple of folks, most notably from the Symfony & Doctrine projects, because I'm a masochist, and I'm morbidly interested in how this whole PHP mess is going to evolve...

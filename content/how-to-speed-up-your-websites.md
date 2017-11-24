@@ -1,6 +1,5 @@
 Title: How to: Speed up your websites!
 Date: 2011-09-02 22:24
-Tags: apache, caching, apc, how-to, images, sprites, php, server
 Slug: how-to-speed-up-your-websites
 Summary: Proud as I am of my brand-new, sexy website, I realize there's always things that can be improved. One of these things I was made aware of today by Kye, of the [Diem community](http://community.diem-project.org/ "Diem Community"): the speed of this website. Admittedly I had already noticed it was somewhat on the slow side. But only when Kye confronted me with a report from [webpagetest.org](http://www.webpagetest.org "Webpagetest"), I realized how bad it really was. So, with some tips from Kye, and some further googling, I set out to speed it up somehow. Because I think many (aspiring) web developers struggle with this problem, and because I've discovered how easy the improvements can be, I decided to share them with you all!
 

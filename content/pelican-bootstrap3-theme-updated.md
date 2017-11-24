@@ -1,6 +1,5 @@
 Title: Pelican Bootstrap 3 theme updated!
 Date: 2013-12-26 00:00
-Tags: pelican, bootstrap, github
 Slug: pelican-bootstrap3-theme-updated
 
 It's late night at the end of a nice Christmas day and I've just finished giving my [Pelican Bootstrap 3 theme](https://github.com/DandyDev/pelican-bootstrap3) a nice update! In the past month the theme has been getting quite some attention, going by the number of _stars_ (30) and _forks_ (16) on GitHub. I realize that these are numbers the average open source project laugh at, but for me it's my most popular contribution to the world so far.

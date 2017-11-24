@@ -1,6 +1,5 @@
 Title: Getting Salesforce data into Hadoop
 Date: 2015-06-07 21:00
-Tags: salesforce, hadoop, hdfs, kitesdk, avro, scala
 Slug: getting-salesforce-data-into-hadoop
 
 A [recent announcement](http://www.forbes.com/sites/alexkonrad/2015/05/28/salesforce-teams-up-to-bring-big-data-to-analytics-cloud/) about a partnership between Salesforce and - among others - Cloudera and Hortonworks, seems to be mostly about the possibility to get data from your Cloudera or Hortonworks Hadoop clusters into the [Salesforce Analytics Cloud](http://www.salesforce.com/eu/analytics-cloud/overview/) (a.k.a. Salesforce Wave). What would be far more useful to me (and hopefully lots of other people), is the ability to do the other way around: **getting your Salesforce data into your Hadoop cluster**. That would open up endless possilibities to combine and analyse your Salesforce data in combination with domain-specific data, log data, click data and all the other data that you collect in the operation of your business.

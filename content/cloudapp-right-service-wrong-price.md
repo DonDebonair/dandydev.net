@@ -1,6 +1,5 @@
 Title: CloudApp, the right service for the wrong price
 Date: 2015-03-24 21:00
-Tags: cloudapp, evernote, netflix, pricing model
 Slug: cloudapp-right-service-wrong-price
 
 **Update 7-6-2015: I switched to Dropshare, scroll down for more info.**

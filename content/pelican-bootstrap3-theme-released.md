@@ -1,6 +1,5 @@
 Title: Pelican Bootstrap 3 theme released
 Date: 2013-08-29 22:00
-Tags: pelican, bootstrap, github
 Slug: pelican-bootstrap3-theme-released
 
 Now that [Bootstrap 3](http://getbootstrap.com/) [final has been released](http://blog.getbootstrap.com/2013/08/19/bootstrap-3-released/), I've updated the Pelican theme I built for this site accordingly. The theme was already on [GitHub](https://github.com/DandyDev/pelican-bootstrap3), but now that things have stabilized, I'm officially releasing version 1.0 of _pelican-bootstrap3_! Luckily for me, [Bootswatch](http://bootswatch.com/) also updated their Bootstrap 3 compatible themes to the newest Bootstrap release. Thomas Park [graciously allowed me](https://github.com/thomaspark/bootswatch/issues/128) to include his themes in my Pelican theme, so when using _pelican-bootstrap3_, you're actually getting 12 themes in 1!

@@ -12,3 +12,15 @@ body {
     font-size: 17px;
     line-height: 1.628571;
 }
+
+.social a {
+	border-bottom: none;
+}
+
+.social .list-group-item {
+	background-color: inherit;
+}
+
+.social i {
+	margin-right: 3px;
+}

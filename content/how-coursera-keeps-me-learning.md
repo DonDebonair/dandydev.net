@@ -1,6 +1,5 @@
 Title: Coursera keeps me learning
 Date: 2014-05-26 16:00
-Tags: coursera, machine learning, scala, functional programming, reactive programming, rxjava, akka
 Slug: coursera-keeps-me-learning
 
 I just finished [Stanford's Machine Learning course](https://www.coursera.org/course/ml) on Coursera, taught by Andrew Ng,

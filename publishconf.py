@@ -14,8 +14,6 @@ SITEURL = 'https://dandydev.net'
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 
-SOCIAL = SOCIAL + (('rss', SITEURL + '/' + FEED_ALL_ATOM),)
-
 DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
@@ -28,9 +26,6 @@ ARTICLE_URL = 'blog/{slug}'
 ARTICLE_SAVE_AS = 'blog/{slug}.html'
 PAGE_URL = '{slug}'
 PAGE_SAVE_AS = '{slug}.html'
-TAG_URL = 'tags/{slug}'
-TAG_SAVE_AS = 'tags/{slug}.html'
-TAGS_URL = 'tags'
 RELATIVE_URLS = False
 
 SEARCH_URL = '/search'

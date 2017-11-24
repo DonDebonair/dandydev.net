@@ -1,6 +1,5 @@
 Title: Setting up Sentry using Vagrant and Puppet
 Date: 2013-11-01 23:00
-Tags: sentry, vagrant, puppet, devops
 Slug: setting-up-sentry-using-vagrant-and-puppet
 
 Devops is hot! And these days, [everyone is diving into the provisioning game](http://blog.publysher.nl/2013/07/infra-as-repo-using-vagrant-and-salt.html). I was invited by the company I work for, to visit the [Devops Days](http://www.devopsdays.org/events/2013-amsterdam/) together with some fellow engineers and the talks there really inspired me! Always eager to learn a new thing or two, I set myself the task of investigating Vagrant in combination with some flavor of provisioning; options for the latter being: [Puppet](http://puppetlabs.com/puppet/puppet-open-source), [Chef](http://www.opscode.com/chef/), [Ansible](https://github.com/ansible/ansible) or [Salt](https://github.com/saltstack/salt). I'm already in love with Vagrant, which I use all the time, [to test out](https://github.com/jpadilla/statsd-graphite-vm) all kinds of tools I come across. I have absolutely no experience however with provisioning tools, so I wanted to learn that too. Ofcourse, finding time to actually get to it, proves difficult these days. 

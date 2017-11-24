@@ -1,6 +1,5 @@
 Title: AutoPlaylistPoetry: a declaration of love to Spotify and Python
 Date: 2014-08-12 23:00
-Tags: python, spotify, flask, redis
 Slug: autoplaylistpoetry
 
 A while ago I decided to try and build a little app that makes use of Spotify's [Metadata API](https://developer.spotify.com/technologies/metadata-api/). At the time, I also started experimenting with Python, so I chose that as the language to build this experiment in.

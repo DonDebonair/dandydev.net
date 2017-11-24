@@ -1,6 +1,5 @@
 Title: Statserver: setting up monitoring & statistics with Ansible
 Date: 2014-03-02 22:00
-Tags: graphite, statsd, sentry, ansible, vagrant, devops
 Slug: statserver-setting-up-monitoring-and-statistics-with-ansible
 
 Monitoring and statistics are an indispensable part of the DevOps toolchain. Collecting and monitoring metrics used to be solely the domain of system engineers/system administrators and IT operations people. But nowadays, tools like [StatsD](https://github.com/etsy/statsd/) make it almost trivial to [measure anything and everything](http://codeascraft.com/2011/02/15/measure-anything-measure-everything/) - and by extension monitor anything - on the application level, and that makes it the responsibility of developers as well. This is not only a prerequisite for a healthy application environment and infrastructure, it can be incredibly fun as well!

@@ -1,6 +1,5 @@
 Title: Crashing servers and riding waves
 Date: 2013-08-22 22:30
-Tags: this site, pelican, vps, security
 Slug: crashing-servers-and-riding-waves
 
 In my [last blog]({filename}/brand-spankin-new-blog.md) I mentioned that I've had some security-related problems with my previous VPS. [A commenter](http://www.publysher.nl/) asked what happened and how bad it was, and he also wanted to know why I chose Pelican for this site. I'm taking his suggestion to write about it on my blog, especially now that I know I'll have a good chance of having an audience of at least one! I'll start with the VPS situation.

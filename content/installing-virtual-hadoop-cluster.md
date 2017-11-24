@@ -1,6 +1,5 @@
 Title: Installing a virtual Hadoop cluster with Vagrant and Cloudera Manager
 Date: 2014-06-18 16:00
-Tags: hadoop, cloudera, vagrant, virtualbox, cdh5
 Slug: installing-virtual-hadoop-cluster
 
 I recently started as a Big Data Engineer at [The New Motion](http://www.thenewmotion.com). While researching our best options for running a Hadoop cluster, I wanted to try out some of the features available in the newest version of Cloudera's Hadoop distribution: [CDH5](http://www.cloudera.com/content/support/en/documentation/cdh5-documentation/cdh5-documentation-v5-latest.html). Of course I could've downloaded their [QuickstartVM](http://www.cloudera.com/content/cloudera-content/cloudera-docs/DemoVMs/Cloudera-QuickStart-VM/cloudera_quickstart_vm.html), but I rather wanted to run a virtual cluster, making use of the 16GB of RAM my shiney new 15" Retina Macbook Pro has ;)

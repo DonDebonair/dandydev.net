@@ -1,6 +1,5 @@
 Title: Spark: Initial job has not accepted any resources
 Date: 2014-06-20 11:00
-Tags: spark, hadoop, cloudera, resources, memory, heap size
 Slug: spark-initial-job-resources
 
 When playing around with Spark on my [local, virtual cluster]({filename}/installing-virtual-hadoop-cluster.md), I ran into some problems concerning resources, even though I had 3 _workers_ running on 3 nodes. I got the following message repeatedly while working with data in the `spark-shell`: 

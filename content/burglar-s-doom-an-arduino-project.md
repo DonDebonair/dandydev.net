@@ -1,6 +1,5 @@
 Title: Burglar's Doom - An Arduino Project
 Date: 2012-01-19 16:51
-Tags: how-to, school, arduino, twitter
 Slug: burglar-s-doom-an-arduino-project
 Summary: Keeping my blog up-to-date, while being busy with Uni and work is harder than I anticipated. So when I can squeeze in a little moment to share some stuff here, I'm always happy when there's a long overdue subject waiting to be covered! Today, I'm gonna share the result of a litte project with you that I built a few months ago during one of the courses in my minor, Mobile Life. It's centered around the [Arduino](http://www.arduino.cc/ "Arduino") and I built it together with [my classmate](http://www.vandorp.biz/ "Daniel van Dorp"). Sadly, because University failed to order the right sensors, [none of our original ideas](http://dandydev.net/blog/experimenting-with-arduino "Experimenting with Arduino") came to fruition. Instead, we decided to put together a burglary alarm that notifies the victim through Twitter. It's called.... Burglar's Doom!
 

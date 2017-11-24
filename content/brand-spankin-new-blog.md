@@ -1,6 +1,5 @@
 Title: Brand-spankin'-new blog!
 Date: 2013-08-17 01:20
-Tags: this site, pelican, bootstrap, theme
 Slug: brand-spankin-new-blog
 
 After a brutal attack on my VPS left the previous iteration of this website in shambles, I decided to make things easier and more fun for the next version. Instead of using an [monolithic and oudated CMS](http://diem-project.org/) built with [an ancient version of a framework](http://symfony.com/legacy) in a [language](http://php.net/) I've grown to dislike a lot ([just like some other folks](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/)), I've decided to take the lean-and-mean route to heavenly bliss. So as of now, this blog is built with [Pelican](http://getpelican.com), a static site/blog generator written in Python. This also fits nicely with my recent love for Python. Because it's just static html being served by NGinx, it's rediculously fast!
