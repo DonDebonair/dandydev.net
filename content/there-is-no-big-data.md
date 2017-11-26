@@ -1,7 +1,6 @@
 Title: There Is No Big Data
-Date: 2017-11-24 22:30
+Date: 2017-11-26 12:00
 Slug: there-is-no-big-data
-Status: draft
 
 I've been working as a data engineer for various companies for a while now, and one thing I keep noticing is how quickly people get caught up in, and are _mislead by_ the "Big Data Hype". There even seems to be an inverse correlation between the technical skill level of a person, and the likelyhood they'll blindly _preach_ "Big Data" in their company. If Gartner is to be believed, "Big Data" will magically transform your organisation and elevate the bottom line to unprecedented heights. But only if you can stick [three](http://www.zdnet.com/article/volume-velocity-and-variety-understanding-the-three-vs-of-big-data/) [or more](https://www.linkedin.com/pulse/20140306073407-64875646-big-data-the-5-vs-everyone-must-know/) _silly_ [Vs](https://www.impactradius.com/blog/7-vs-big-data/) to your data...
 
@@ -38,11 +37,11 @@ Until you reach that point where your regular tools stop working, [trust](https:
 
 ### Bonus
 
-You _can_ use "Big Data" as a term to pad your resume and demand a higher salary from your manager, and I fully encourage you to try and do this! In that case, it might actually be benificial to have your managers believe the "Big Data" hype. Don't show them this blog post.
+You _can_ use "Big Data" as a term to embellish your resume and demand a higher salary from your manager. In that case, it might actually be benificial to have your managers believe the "Big Data" hype. Don't show them this blog post.
 
-Now that we got that whole "Big Data" fad out of the way, let me quickly shatter some other dreams before parting ways:
+Now that we got that whole "Big Data" fad out of the way, let me quickly lure you away from a couple of other misunderstood hypes before parting ways:
 
-- Your company doesn't need Blockchain technology, unless you're building a cryptocurrency, [which you shouldn't]({filename}/images/blockchain.jpg)
-- Machine Learning isn't a silver bullet. [Machine Learning is hard](http://ai.stanford.edu/~zayd/why-is-machine-learning-hard.html). It will not magically give you super accurate predictions to solve whatever business problem you have. In fact, it's amazing if your data scientists can come up with a model that outperforms a coin flip. That is not to say that you shouldn't invest in building machine learning models, but you should be realistic in your expectations.
+- Your company doesn't need **Blockchain** technology, unless you're building a cryptocurrency, [which you shouldn't]({filename}/images/blockchain.jpg)
+- **Machine Learning** isn't a silver bullet. [Machine Learning is hard](http://ai.stanford.edu/~zayd/why-is-machine-learning-hard.html). It will not magically give you super accurate predictions to solve whatever business problem you have. In fact, it's amazing if your data scientists can come up with a model that outperforms a coin flip. That is not to say that you shouldn't invest in building machine learning models, but you should be realistic in your expectations.
 
 Any other unicorns that need to be put down? Let me know!
