@@ -37,8 +37,6 @@ Until you reach that point where your regular tools stop working, [trust](https:
 
 ### Bonus
 
-You _can_ use "Big Data" as a term to embellish your resume and demand a higher salary from your manager. In that case, it might actually be benificial to have your managers believe the "Big Data" hype. Don't show them this blog post.
-
 Now that we got that whole "Big Data" fad out of the way, let me quickly lure you away from a couple of other misunderstood hypes before parting ways:
 
 - Your company doesn't need **Blockchain** technology, unless you're building a cryptocurrency, [which you shouldn't]({filename}/images/blockchain.jpg)
