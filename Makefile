@@ -32,6 +32,7 @@ help:
 	@echo '   make serve                       serve site at http://localhost:8000'
 	@echo '   make devserver                   start/restart develop_server.sh    '
 	@echo '   make stopserver                  stop local server                  '
+	@echo '   upload                           upload the web site via SSH        '
 	@echo '   ssh_upload                       upload the web site via SSH        '
 	@echo '   rsync_upload                     upload the web site via rsync+ssh  '
 	@echo '   dropbox_upload                   upload the web site via Dropbox    '
