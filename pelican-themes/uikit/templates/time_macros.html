@@ -1,4 +1,0 @@
-{% macro get_time(article, date) -%}
-  {% set datetime = date|strftime('%Y-%m-%d') %}
-  <time datetime="{{datetime}}">{{ article.locale_date|trim }}</time>
-{%- endmacro %}
