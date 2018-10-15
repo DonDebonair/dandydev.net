@@ -19,7 +19,7 @@ TRANSLATION_FEED_ATOM = None
 
 CUSTOM_CSS = 'static/custom.css'
 
-STATIC_PATHS = ['images', 'files', 'extra/robots.txt', 'extra/favicon.ico', 'extra/custom.css', 'extra/@.html', 'extra/~.html', 'extra/in.html']
+STATIC_PATHS = ['images', 'files', 'extra/robots.txt', 'extra/favicon.ico', 'extra/custom.css', 'extra/@.html', 'extra/~.html', 'extra/in.html', '../CNAME']
 
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
@@ -27,7 +27,8 @@ EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/custom.css'},
     'extra/@.html': {'path': '@.html'},
     'extra/~.html': {'path': '~.html'},
-    'extra/in.html': {'path': 'in.html'}
+    'extra/in.html': {'path': 'in.html'},
+    '../CNAME': {'path': 'CNAME'}
 }
 
 # Blogroll
@@ -50,8 +51,7 @@ MARKDOWN = {
   'output_format': 'html5',
 }
 
-THEME = os.path.join(os.environ.get('HOME'),
-                     'projects/tools/pelican-themes/pelican-bootstrap3')
+THEME = 'pelican-themes/pelican-bootstrap3'
 
 BOOTSTRAP_THEME = 'simplex'
 
@@ -66,8 +66,7 @@ TWITTER_CARDS = True
 
 CC_LICENSE = "CC-BY-NC-SA"
 
-PLUGIN_PATHS = [os.path.join(os.environ.get('HOME'),
-                'projects/tools/pelican-plugins')]
+PLUGIN_PATHS = ['pelican-plugins']
 
 PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.vimeo',
