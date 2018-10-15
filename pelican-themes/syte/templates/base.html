@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="{{ SITE_DESCRIPTION }}" />
+  <meta name="keywords" content="{{ SITE_KEYWORDS }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{{SITENAME}}{% endblock %}</title>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+{% assets filters="cssmin", output="css/styles.min.css", "css/styles.css", "css/pygments.css" %}
+    <link rel="stylesheet" href="{{ SITE_URL }}/{{ ASSET_URL }}">
+{% endassets %}
+
+  <link rel="shortcut icon" type="image/png" href="{{ GRAVATAR }}" />
+  {% block head %}{% endblock %}
+</head>
+<body>
+<header class="main-header">
+  {% include 'github.html' %}
+  <hgroup>
+    <div>
+      <img src="{{ GRAVATAR }}" style="margin-left: 34px; margin-top: 30px;">
+    </div>
+    <h1><a href={{ SITEURL }} id="home-link">{{ SITENAME }}</a></h1>
+    <h2>{{ ABOUT }}</h2>
+  </hgroup>
+  <nav>
+    <ul class="main-nav">
+      {% if DISPLAY_HOME_ON_MENU %}
+      <li><a href="{{ SITEURL }}/">Home</a></li>
+      {% endif %}
+
+      {% if DISPLAY_PAGES_ON_MENU %}
+        {% for current_page in pages %}
+      <li><a href="{{ SITEURL }}/{{ current_page.url }}">{{ current_page.title }}</a></li>
+        {% endfor %}
+      {% endif %}
+
+      {% for title, url in SOCIAL %}
+      <li><a href="{{ url }}" id="{{ title }}-link">{{ title }}</a></li>
+      {% endfor %}
+
+      <li><a href="{{ SITEURL }}/{{ FEED_RSS }}" id="feed-link">Feed</a></li>
+      <li><a href="mailto:{{ CONTACT }}?subject=Hello" id="contact-link">Contact</a></li>
+    </ul>
+  </nav>
+  <a href="http://pelican.notmyidea.org" class="fork-me">Powered by Pelican.</a>
+
+</header>
+{% block main_section %}{% endblock %}
+<div class="mobile-nav">
+  <span class="nav-btn" id="mobile-nav-btn">
+    <span class="nav-btn-bar"></span>
+    <span class="nav-btn-bar"></span>
+    <span class="nav-btn-bar"></span>
+  </span>
+  <h3>
+    <a href="{{ SITEURL }}/" id="mobile-title">{{ SITEURL }}</a>
+  </h3>
+</div>
+
+{% assets filters="rjsmin", output="gen/packed.js", "js/libs/jquery-1.7.2.min.js", "js/libs/jquery.url.js", "js/libs/bootstrap-modal.js", "js/libs/handlebars.js", "js/libs/spin.min.js", "js/libs/moment.min.js", "js/common.js", "js/libs/github.js", "js/libs/google+.js", "js/libs/twitter.js", "js/libs/instagram.js" %}
+<script src="{{ SITE_URL }}/{{ ASSET_URL }}"></script>
+{% endassets %}
+
+<script>
+    // Function to get the Maximam value in Array
+    Array.max = function( array ) {
+        return Math.max.apply( Math, array );
+    };
+
+    var heights = [];
+    heights.push($('.main-header').height());
+    heights.push($('.main-section').height());
+    heights.push($(window).height());
+
+    var max_height = Array.max(heights);
+    $('.main-header').height(max_height+80);
+
+    $('#mobile-title').text(window.location.hostname);
+
+{% if GITHUB_INTEGRATION_ENABLED %}
+    var github_username = '{{ GITHUB_USERNAME }}';
+{% endif %}
+
+{% if GPLUS_INTEGRATION_ENABLED %}
+    var google_username = '{{ GPLUS_USERNAME }}';
+    var google_accesskey = '{{ GPLUS_API_ACCESS }}';
+{% endif %}
+
+{% if TWITTER_INTEGRATION_ENABLED %}
+    var twitter_username = '{{ TWITTER_USERNAME }}';
+{% endif %}
+
+{% if INSTAGRAM_INTEGRATION_ENABLED %}
+    var instagram_username = '{{ INSTAGRAM_USERNAME }}';
+    var instagram_accesskey = '{{ INSTAGRAM_API_ACCESS }}';
+{% endif %}
+</script>
+
+{% include "analytics.html" %}
+{% include "piwik.html" %}
+</body>
