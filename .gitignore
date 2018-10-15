@@ -13,3 +13,12 @@ cache
 *.iml
 *.iws
 !*.jar
+__pycache__
+
+pelican-themes/*
+!pelican-themes/pelican-bootstrap3/
+
+pelican-plugins/*
+!pelican-plugins/liquid_tags/
+!pelican-plugins/tipue_search/
+!pelican-plugins/i18n_subsites/
