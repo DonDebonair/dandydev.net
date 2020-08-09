@@ -1,13 +1,16 @@
 Title: About
 
-I'm Daan Debie, an Engineering Lead, Software & Data Engineer and Open Source addict from The Netherlands working on freelance basis. 
+I'm Daan Debie, a Technology Strategist and leader with a strong and long Software & Data Engineering background and a strong believe 
+in the power of Open Source. I live in The Netherlands and currently work as Director Engineering & Architecture for KLM Royal Dutch Airlines. 
 I have extensive experience developing complex systems and compelling products. I provide technological leadership for teams and 
 organisations on a journey towards operational excellence by helping them achieve _technological excellence_. On top of my experience 
-as a Software craftsman, I'm also an expert in data engineering & the Hadoop ecosystem, containerization (Docker et al.) and programmable 
-infrastructure. My languages of choice are Clojure, Scala and Python, and I'm fluent in Java as well. See GitHub for some of my 
-side-projects.
+as a Software craftsman, I'm also an expert in data engineering & distributed computing, containerization (Docker, Kubernetes et al.) and programmable 
+infrastructure. My languages of choice are Scala, Python and Clojure and I'm fluent in Java as well. But I believe in using the right
+tool for the job and encourage my teams to keep exploring new languages and tools to bring their products to the next level.
 
-I live in Haarlem with my lovely wife and [2 Maine Coons](https://www.instagram.com/desi_sammy/).
+See GitHub for some of my side-projects.
+
+I live in Zandvoort with my lovely wife and [a Maine Coon](https://www.instagram.com/desi_sammy/).
 
 Feel free to approach me if you need my skills!
 
