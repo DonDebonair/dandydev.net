@@ -19,7 +19,7 @@ TRANSLATION_FEED_ATOM = None
 
 CUSTOM_CSS = 'static/custom.css'
 
-STATIC_PATHS = ['images', 'files', 'extra/robots.txt', 'extra/favicon.ico', 'extra/custom.css', 'extra/@.html', 'extra/~.html', 'extra/in.html', '../CNAME']
+STATIC_PATHS = ['images', 'files', 'extra/robots.txt', 'extra/favicon.ico', 'extra/custom.css', 'extra/@.html', 'extra/~.html', 'extra/in.html', 'extra/_redirects']
 
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
