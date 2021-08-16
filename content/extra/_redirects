@@ -1,4 +1,4 @@
-/				https://www.daan.fyi
-/about.html		https://www.daan.fyi/about
-/projects		https://github.com/DandyDev
-/blog/*			https://www.daan.fyi/archive/:splat
+/			https://www.daan.fyi 301!
+/about		https://www.daan.fyi/about 301!
+/projects	https://github.com/DandyDev 301!
+/blog/*		https://www.daan.fyi/archive/:splat 301!
