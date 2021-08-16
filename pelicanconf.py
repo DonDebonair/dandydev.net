@@ -28,7 +28,8 @@ EXTRA_PATH_METADATA = {
     'extra/@.html': {'path': '@.html'},
     'extra/~.html': {'path': '~.html'},
     'extra/in.html': {'path': 'in.html'},
-    '../CNAME': {'path': 'CNAME'}
+    '../CNAME': {'path': 'CNAME'},
+    'extra/_redirects': {'path': '_redirects'},
 }
 
 # Blogroll
